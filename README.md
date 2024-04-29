@@ -167,6 +167,6 @@ This will run the pipeline on every push to develop/or master.
 
 ## Resources
 
-Ubuntu Server Setup https://www.youtube.com/watch?v=VXSgEvZKp-8
-NGINX, SSL With Lets Encrypt https://www.youtube.com/watch?v=oykl1Ih9pMg
-Github Runners https://docs.github.com/en/actions/hosting-your-own-runners
+- Ubuntu Server Setup https://www.youtube.com/watch?v=VXSgEvZKp-8
+- NGINX, SSL With Lets Encrypt https://www.youtube.com/watch?v=oykl1Ih9pMg
+- Github Runners https://docs.github.com/en/actions/hosting-your-own-runners
