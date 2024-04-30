@@ -1,4 +1,4 @@
-## 1€ Server Guide
+## 1€ Server Guide WIP
 Guide to create a server, most fitted for learning reasons.
 This Guide will show you how to setup a CI/CD pipeline with github and a virtual server. 
 We'll focus on deploying a Dockerized application, with a specific emphasis on a Node.js app. While the concepts we cover are applicable across various technologies, we've chosen Node.js for its popularity and suitability for CI/CD pipelines.
