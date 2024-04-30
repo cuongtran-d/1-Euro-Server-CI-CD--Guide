@@ -53,10 +53,10 @@ We'll focus on deploying a Dockerized application, with a specific emphasis on a
 
 **Setup firewall**
 
-    sudo ufw enable
     sudo ufw allow ssh
     sudo ufw allow http
     sudo ufw allow https
+    sudo ufw enable
  **Setup Docker** 
  Follow this
  https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
