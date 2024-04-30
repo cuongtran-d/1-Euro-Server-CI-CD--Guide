@@ -79,15 +79,20 @@ https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted
 
 If everything went well, you should see your runner idling in the runners tab.
 
-## 4. Github Action
+## 4. Github & Github Action
 *Initially, I attempted to execute the build process directly on the same server where the application would ultimately run. However, I encountered an issue during the `npm install` step, which resulted in the process freezing. I think the server _lacked the necessary capacity to handle the build process. So I went to a two-Step approach.*
 
 **Step 1 - Build & Push** 
 Build and Push the docker image to Docker HUB using classic github actions.
+
 **Step 2 - Pull & Run**
 Pull the Image from Step 1 and run it on our own server.
 
 Add the `deploy.yml` to `.github/workflows/`
+
+Add in Settings -> Secrets and Variables -> Actions your dockerhub credentials
+	DOCKER_PASSWORD
+	DOCKER_USERNAME
 
 **Update the env Variables**
 
